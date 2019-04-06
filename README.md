@@ -1,4 +1,7 @@
 # COMPARISON OF EDGE DETECTION OPERATOR USING CANNY,  KIRSCH & MARR-HILDRETH (LoG) FOR ROAD MARKING DETECTION
+
+![alt text](http://teemstudios.net/wp-content/uploads/2019/04/12.jpg)
+
 ENGLISH:
 Self-driving  or  Autonomous driving, Advanced Driving Assistance System (ADAS) is one of the most popular topics in research related to vehicle safety. One of the most useful technologies in autonomous driving is lane detection that uses longitudinal marks (e.g. straight and dashed lines) as a reference to keep the vehicle running on lane. Various operators on edge detection are proposed to obtain the best accuracy of lane detection. However, the movement of the line marks between frames will vary depending on the speed of the vehicle. If the system fails to detect the line marker at high speed, will cause the autonomous driving system make a wrong decision. In this final task, we will perform a comparison analysis of Canny, Laplacian of Gaussian (Marr-Hildreth) and Kirsch's ability on edge detection methods to detect dashed line marks at varying speeds. The results showed that all operators succeeded in achieving the minimum detection target of 80% and obtained the best operators for line marker detection is Kirsch with the highest  percentage at all speeds 30, 50 and 80 km / h.
 
@@ -8,15 +11,28 @@ Self-driving atau Autonomous driving, Advanced Driving Assistance System (ADAS) 
 # PURPOSE
 Find the best edge detection operator for road marking/ lane detection.
 
-# Method
-Canny, Laplacian of Gaussian (Marr-Hildreth), Kirsch
+# METHOD
+Canny, Laplacian of Gaussian (Marr-Hildreth), Kirsch which every operator will do the same process (see block diagram below)
+1. Check if image mode RGB,
+2. If Yes, Grayscaling, then
+3. Image Enhancement,
+4. if No, Skip step 2 & 3,
+5. Edge Detection,
+6. Region of Interest (ROI)
+7. Hough Transform
+8. Show Detection
+
+![alt text](http://teemstudios.net/wp-content/uploads/2019/04/Algoritma-modifikasi.jpg)
 
 # HOW TO USE
 1. Load folder into MATLAB
 2. Run Main.fig
+3. Click "i" button for further information (see image below).
 
-# Results
+![alt text](http://teemstudios.net/wp-content/uploads/2019/04/1.jpg)
+
+# RESULTS
 See Jurnal.pdf
 
-# Further Information
+# MORE
 Contact me
