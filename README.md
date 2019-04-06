@@ -14,3 +14,9 @@ Canny, Laplacian of Gaussian (Marr-Hildreth), Kirsch
 # HOW TO USE
 1. Load folder into MATLAB
 2. Run Main.fig
+
+# Results
+See Jurnal.pdf
+
+# Further Information
+Contact me
