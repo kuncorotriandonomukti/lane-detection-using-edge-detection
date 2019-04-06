@@ -5,5 +5,12 @@ Self-driving  or  Autonomous driving, Advanced Driving Assistance System (ADAS) 
 INDONESIA:
 Self-driving atau Autonomous driving, Advanced Driving Assistance System (ADAS) merupakan salah satu topik yang banyak digemari dalam berbagai penelitian yang berhubungan dengan keamanan kendaraan. Salah satu teknologi yang sangat berguna pada autonomous driving yaitu deteksi jalur atau lane detection yang menggunakan marka membujur ( e.g . garis putus dan utuh) sebagai acuan agar kendaraan dapat berjalan tetap pada jalurnya. Berbagai operator pada deteksi tepi diajukan untuk mendapatkan hasil akurasi deteksi semaksimal mungkin. Namun, pergerakan marka garis antar frame akan bervariasi tergantung pada kecepatan kendaraan. Jika sistem gagal mendeteksi marka garis pada kecepatan tinggi, akan mengakibatkan sistem autonomous driving salah mengambil keputusan. Pada penelitian ini, akan dilakukan analisis perbandingan kemampuan operator Canny, Laplacian of Gaussian (Marr-Hildreth) dan Kirsch pada metode deteksi tepi untuk mendeteksi marka garis putus – putus pada kecepatan yang bervariasi. Hasil pengujian menunjukan jika seluruh operator berhasil mencapai target minimum pendeteksian yaitu 80% dan didapatkan operator terbaik untuk pendeteksian marka garis yaitu Kirsch dengan persentase tertinggi pada kecepatan 30, 50 dan 80 km / jam.
 
+# PURPOSE
+Find the best edge detection operator for road marking/ lane detection.
+
 # Method
 Canny, Laplacian of Gaussian (Marr-Hildreth), Kirsch
+
+# HOW TO USE
+1. Load folder into MATLAB
+2. Run Main.fig
