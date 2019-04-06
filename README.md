@@ -35,7 +35,7 @@ Note: **You need to make ROI vertices by clicking  "Buat Simpul ROI" after confi
 ## RESULTS
 ![alt-text](http://teemstudios.net/wp-content/uploads/2019/04/results.png)
 
-Further explaination see "Jurnal.pdf"
+Further explanation see "Jurnal.pdf"
 
 ## MORE
 Chat on Whatsapp (62)857 9500 2903
